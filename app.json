@@ -1,0 +1,20 @@
+{
+  "name": "Gatsby Contentful Blocks",
+  "description": "Gatsby starter for a Contentful project using blocks.",
+  "keywords": [
+    "contentful",
+    "gatsby",
+    "static",
+    "ssg"
+  ],
+  "repository": "https://github.com/rockynhatnguyen/gatsby-contentful-blocks",
+  "success_url": "/",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-static"
+    }
+  ]
+}
